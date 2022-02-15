@@ -13,7 +13,7 @@ _get_repolink () {
     then
         if [[ $starxspeed_REPO_BRANCH ]]
         then
-            echo "${starxspeed_REPO}/archive/${LEGEND_REPO_BRANCH}.zip"
+            echo "${starxspeed_REPO}/archive/${starxspeed_REPO_BRANCH}.zip"
         else
             echo "${starxspeed_REPO}/archive/master.zip"
         fi
@@ -25,18 +25,18 @@ _get_repolink () {
 
 _setting_bot () {
     local zippath
-    zippath="LegendBot.zip"
-    echo "  Downloading LegendBot V3.O Source Code..."
+    zippath="starxspeed.zip"
+    echo "  STARTING Downloading starxspeedBot V3.O Source Code...🧨"
     wget -q $(_get_repolink) -O "$zippath"
-    echo "  Unpacking Data ..."
-    LEGENDPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    echo "  Unpacking Data Ho Raha Hai 😜 ..."
+    starxspeedPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
     echo "Done"
-    echo "  LegendBot V3.O Cleaning.."
+    echo "  starxspeed 3.O Cleaning.."
     rm -rf "$zippath"
     sleep 5
-    cd $LEGENDPATH
-    echo "    ⚜️Starting Lêɠêɳ̃dẞø†⚜️     "
+    cd $starxspeedPATH
+    echo "    ⚜️Starting ѴЄИѲ𐌼χβѲƬ⚜️     "
     echo "
     🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳
     "
