@@ -1,8 +1,8 @@
 #Repo Clonning ⚡♥️
-RUN git clone https://github.com/The-LegendBot/LEGENDUSERBOT.git /root/userbot
+RUN git clone https://github.com/starxspeed/VENOMXBOT/edit/master/Dockerfile.git /root/VENOMXUSERBOT
 
 #working directory 
-WORKDIR /root/userbot
+WORKDIR /VENOMXUSERBOT
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt
