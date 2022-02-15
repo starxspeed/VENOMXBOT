@@ -5,10 +5,10 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $starxspeed_REPO == "starxspeed" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1WRU5PTVhCT1Qvc3RhcnhzcGVlZEJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
     elif [[ $starxspeed_REPO == "LEGENDBOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1WRU5PTVhCT1Qvc3RhcnhzcGVlZEJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
     elif [[ $starxspeed_REPO =~ $regex ]]
     then
         if [[ $starxspeed_REPO_BRANCH ]]
@@ -18,7 +18,7 @@ _get_repolink () {
             echo "${starxspeed_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1WRU5PTVhCT1Qvc3RhcnhzcGVlZEJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
     fi
 }
 
