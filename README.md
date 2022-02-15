@@ -142,9 +142,9 @@
 
 <details>
 
-  <summary> • LICENSE • </summary>
+  <summary> • 💡 CREDITS 💞 • </summary>
 
-![](https://www.gnu.org/graphics/gplv3-or-later.png)
+![STARXSPEEDYBOT](https://github.com/starxspeed/VENOMXBOT/edit/master/README.md)
 
 VENOMXBOT
 
