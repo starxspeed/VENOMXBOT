@@ -75,13 +75,13 @@
 - Install Requirements.
 
 `pip install -U -r requirements.txt`
-- Generate Legend STRING.
+- Generate Starxspeedy STRING.
 
-`python LegendString.py`
+`python StarxspeedyString.py`
 - Create config.py or rename exampleconfig.py to config.py. Fill All The Required Variables.
-- Finally Start LegendBot By Vps
+- Finally Start StarxBot By Vps
 
-`bash ./LEGENDBOT/start.sh`
+`bash ./STARXSPEEDYBOT/start.sh`
 
 ---------
 
@@ -122,12 +122,12 @@
 - Open the terminal.
 - Paste this code.
 
-`pkg install python wget -y && pip install telethon && wget https://raw.githubusercontent.com/The-LegendBot/LEGENDUSERBOT/LegendBot/LegendString.py && python3 LegendString.py`
+`pkg install python wget -y && pip install telethon && wget https://raw.githubusercontent.com/The-starxspeed/VENOMXBOT/StarxBot/StarxString.py && python3 StarxString.py`
 - Fill API ID, API HASH, Phone number (with country code).
 - Paste the OTP received on Telegram.
 - If You have Enabled 2-Step Verification then fill your password.
 - Note that Termux Doesn't show passwords when filled. Just paste your password and hit enter.
-- Your LegendBot Session Will be saved in your Telegram Saved Message.
+- Your StarxspeedyBot Session Will be saved in your Telegram Saved Message.
 
 
 ------
