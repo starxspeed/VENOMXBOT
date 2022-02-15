@@ -63,7 +63,7 @@
 
 - Clone the repo. 
 
-`git clone https://github.com/The-LegendBot/LEGENDUSERBOT.git`
+`git clone https://github.com/The-starxspeed/VENOMXBOT.git`
 - Open Cloned Folder.
 
 `cd STARXSPEEDYBOT`
@@ -77,7 +77,7 @@
 `pip install -U -r requirements.txt`
 - Generate Starxspeedy STRING.
 
-`python StarxspeedyString.py`
+`python LegendString.py`
 - Create config.py or rename exampleconfig.py to config.py. Fill All The Required Variables.
 - Finally Start StarxBot By Vps
 
@@ -146,9 +146,9 @@
 
 ![](https://www.gnu.org/graphics/gplv3-or-later.png)
 
-LEGEND-OS
+VENOMXBOT
 
-Poject [LEGENDBOT](https://github.com/LEGEND-OS/LEGENDBOT) is free software: you can redistribute it and/or modify
+Poject [STARXSPEEDYBOT](https://github.com/starxspeed/VENOMXBOT) is free software: you can redistribute it and/or modify
 
 it under the terms of the GNU General Public License as published by
 
