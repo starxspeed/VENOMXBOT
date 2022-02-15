@@ -1,8 +1,8 @@
 <h1 align="center">
-<b> 『Lêɠêɳ̃dẞø†』🇮🇳 </b>
+<b> 『𝐒𝐓𝐀𝐑 𝐗 𝐒𝐏𝐄𝐄𝐃 𝐁𝐎𝐓』🇮🇳 </b>
 </h1>
 
-[![LEGENDBOT](https://te.legra.ph/file/964d7d6d555bb9358ff04.jpg)](https://github.com/LEGENDS-OP/LEGENDUSERBOT)
+[![𝐒𝐓𝐀𝐑 𝐗 𝐒𝐏𝐄𝐄𝐃 𝐁𝐎𝐓](https://te.legra.ph/file/964d7d6d555bb9358ff04.jpg)](https://github.com/LEGENDS-OP/LEGENDUSERBOT)
 
 <h6 align="center">
   <b>⚡ LegendBot Is One Of The Fastest & Smoothest Bot On Telegram Based on Telethon⚡</b>
